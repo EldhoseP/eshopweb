@@ -14,6 +14,8 @@ namespace Microsoft.eShopWeb.Infrastructure.Services
         {
             var fromEmailAddress = "eShopOnWeb@demo.com";
             //Local SMTP
+            //The latest release of smtp4dev can be found here: https://github.com/rnwood/smtp4dev/releases/tag/v2.0.10
+            //The repo with instructions for installation and running can be found here: https://github.com/rnwood/smtp4dev
             MailMessage mail = new MailMessage
             {
                 From = new MailAddress(fromEmailAddress),
